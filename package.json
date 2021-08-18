@@ -1,0 +1,24 @@
+{
+  "name": "ut06-2021-bg-challenge9",
+  "version": "1.0.0",
+  "description": "Professional Readme Generato",
+  "main": "index.js",
+  "scripts": {
+    "test": "node inquirer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billgeng/UT06-2021-BG-Challenge9.git"
+  },
+  "keywords": [
+    "node",
+    "inquirer",
+    "readme"
+  ],
+  "author": "Bill Geng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/billgeng/UT06-2021-BG-Challenge9/issues"
+  },
+  "homepage": "https://github.com/billgeng/UT06-2021-BG-Challenge9#readme"
+}
