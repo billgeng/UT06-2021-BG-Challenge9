@@ -3,11 +3,31 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
 
+const writeFileAsync = util.promisify(fs.writeFile);
+
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = [
 
+      {
+        type:'input',
+        name:'name',
+        message:'What is your name ?'
+
+       },
+       {
+        type:'input',
+        name:'email',
+        message:'What is your email address ?'
+
+       },
+       {
+        type:'input',
+        name:'github',
+        message:'What is your GitHub username ?'
+
+        },
         {
             type:'input',
             name:'title',
@@ -19,7 +39,7 @@ const questions = [
             name:'description',
             message:'Please give a detailed description of your project:'
  
-        },
+        },    
         {
             type:'confirm',
             name:'Table of Contents',
@@ -47,9 +67,9 @@ const questions = [
             message:'Which license do you use for your project ? '
         },
         {
-            type:'confirm',
+            type:'input',
             name:'badges',
-            message:'Do you have any badges for your project ?'
+            message:'What are badges do you have for the project ?'
         },
         {
             type:'input',
@@ -59,11 +79,11 @@ const questions = [
         {
             type:'input',
             name:'contributing',
-            message:'Who is your contributor ?'
+            message:'Who contributed on your project ?'
         },
         {
             type:'input',
-            name:'test',
+            name:'tests',
             message:'Please provide examples on how to run your tests for your project.'
         },
 
@@ -72,7 +92,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-     
+      
 }
 
 // TODO: Create a function to initialize app
