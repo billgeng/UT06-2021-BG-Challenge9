@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (data.badges == '') {
-    return data.badges = '';
+    return data.badges = `${data.badges}`;
   }
 }
 
@@ -56,11 +56,12 @@ function generateMarkdown(data) {
 
   ## License
 
-  ${data.license}
+    This project is licensed by ${data.license} .
 
   ## Badges
 
   ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+
   ${data.badges}
 
   ## Features
