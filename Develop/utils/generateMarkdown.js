@@ -35,9 +35,7 @@ function renderLicenseSection(license) {
     return ''
   } else {
     return (`
-      ## License
-      
-      This project is license under the ${license}.
+        This project is license under the ${license}.
     `
     )
   }
@@ -86,6 +84,8 @@ function generateMarkdown(data) {
   ## Tests
 
   ${data.tests}
+
+  ## License
 
   ${renderLicenseSection(`${data.license}`)}
 
