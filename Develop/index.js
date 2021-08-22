@@ -59,7 +59,7 @@ const questions = [
         {
             type:'list',
             name:'license',
-            message:'Which license the application is covered under? '
+            message:'Which license the application is covered under? ',
             Choices:['The MIT license','The GPL license','Apache license','GNU license','N/A']
         },
         {
@@ -81,19 +81,31 @@ const questions = [
             type:'input',
             name:'tests',
             message:'Please provide examples on how to run your tests for your project.'
-        },
+        }
 
     ];
 
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-      
+      fs.writeFile(fileName,data,(err) =>{
+          console.log(fileName)
+          console.log(data)
+          if (err) {
+              return console.log(err)
+          } else {
+              console.log('You are successful !')
+          }
+      })
 }
 
 // TODO: Create a function to initialize app
 function init() {
-    fs.writeFile (,writeToFile());
+    inquirer.prompt(questions)
+    .then(function(data) {
+        writeToFile('README.md',generateMarkdown(data));
+        console.log(data)
+    })
 }
 
 // Function call to initialize app
