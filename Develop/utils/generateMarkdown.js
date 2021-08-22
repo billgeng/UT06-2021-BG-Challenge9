@@ -48,8 +48,7 @@ function generateMarkdown(data) {
   return `
   
   # ${data.title}
-
- 
+  
 
   ## Description 
 
@@ -58,18 +57,12 @@ function generateMarkdown(data) {
   ## Table of Contents
 
   * [Installation](#installation)
-
   * [Usage](#usage)
-
   * [Contributing](#contributing) 
-
   * [Test](#tests) 
-
   * [License](#license) 
-
   * [Questions](#questions) 
 
-  
   ## Installation
 
   ${data.installation}
@@ -79,7 +72,6 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ![alt text](./assets/images/screenshot.png)
-
   
   ## Badges
 
@@ -88,7 +80,6 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(`${data.license}`)}
 
   ${data.badges}
-  
 
   ## Contributing
 
@@ -101,7 +92,6 @@ function generateMarkdown(data) {
   ${renderLicenseSection(`${data.license}`)}
 
    If you have any question about license ,please visit to ${renderLicenseLink(`${data.license}`)}.
-
 
   ## Questions
 
