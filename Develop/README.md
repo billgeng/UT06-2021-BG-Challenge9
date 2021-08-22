@@ -24,7 +24,7 @@
 
   npm init, npm install inquirer,and node index.js
 
-  ![alt text](./assets/images/screenshot.png)
+  
   
   ## Badges
 
