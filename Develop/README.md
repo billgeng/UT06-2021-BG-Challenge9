@@ -1,58 +1,54 @@
+# Professional README Generator
 
-  
-  # Professional README Generator
-  
+## Description
 
-  ## Description 
+This app allows the developers to create a new readme for a new project.
 
-  This app allows developers to creat a professional readme for a new project.
+https://github.com/billgeng/UT06-2021-BG-Challenge9/blob/main/Develop/README.md
 
-  ## Table of Contents
+## Table of Contents
 
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contributing](#contributing) 
-  * [Test](#tests) 
-  * [License](#license) 
-  * [Questions](#questions) 
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Test](#tests)
+- [License](#license)
+- [Questions](#questions)
 
-  ## Installation
+## Installation
 
-  inquirer and node
+npm init , inquirer,node index.js
 
-  ## Usage 
+## Usage
 
-  npm init, npm install inquirer,and node index.js
+npm init, npm install inquirer,node index.js
 
-  
-  
-  ## Badges
+![alt text](./assets/images/Screenshot-proreadme.png)
 
-  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+## Badges
 
-  N/A
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
-  ## Contributing
+N/A
 
-  N/A
+## Contributing
 
-  ## Tests
+N/A
 
-  node index.js
+## Tests
 
-  ## License
+node index.js
 
-  
+## License
+
         This project is license under the MIT license.
-    
 
-  ![License:MIT](https://img.shields.io/badge/License-MIT-brightgreen)
+![License:MIT](https://img.shields.io/badge/License-MIT-brightgreen)
 
-   If you have any question about license ,please visit to https://opensource.org/licenses/MIT.
+If you have any question about license ,please visit to https://opensource.org/licenses/MIT.
 
-  ## Questions
+## Questions
 
-  If you have any questions ,please check the link : https://github.com/billgeng/UT06-2021-BG-Challenge9 
+If you have any questions ,please check the link : https://github.com/billgeng/UT06-2021-BG-Challenge9
 
-  If you have any additional questions , please Email to me by billgeng@yahoo.com.
-
+If you have any additional questions , please Email to me by billgeng@yahoo.com.
