@@ -77,8 +77,6 @@ function generateMarkdown(data) {
 
   ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
-  ${renderLicenseBadge(`${data.license}`)}
-
   ${data.badges}
 
   ## Contributing
@@ -90,6 +88,8 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ${renderLicenseSection(`${data.license}`)}
+
+  ${renderLicenseBadge(`${data.license}`)}
 
    If you have any question about license ,please visit to ${renderLicenseLink(`${data.license}`)}.
 
