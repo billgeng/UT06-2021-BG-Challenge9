@@ -1,64 +1,54 @@
 
   
-  # Professional readem 
-
- 
+  # Professional README Generator
+  
 
   ## Description 
 
-  sfd
+  This app allows developers to creat a professional readme for a new project.
 
   ## Table of Contents
 
   * [Installation](#installation)
-
   * [Usage](#usage)
-
   * [Contributing](#contributing) 
-
   * [Test](#tests) 
-
   * [License](#license) 
-
   * [Questions](#questions) 
 
-  
   ## Installation
 
-  sdfsf
+  inquirer and node
 
   ## Usage 
 
-  dfs
+  npm init, npm install inquirer,and node index.js
 
   ![alt text](./assets/images/screenshot.png)
-
   
   ## Badges
 
   ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
-  ![License:MIT](https://img.shields.io/badge/License-MIT-brightgreen)
-
-  sdf
-  
+  N/A
 
   ## Contributing
 
-  few
+  N/A
 
   ## Tests
 
-  sre
+  node index.js
+
+  ## License
 
   
-      ## License
-      
-      This project is license under the MIT license.
+        This project is license under the MIT license.
     
 
-   If you have any question about license ,please visit to https://opensource.org/licenses/MIT.
+  ![License:MIT](https://img.shields.io/badge/License-MIT-brightgreen)
 
+   If you have any question about license ,please visit to https://opensource.org/licenses/MIT.
 
   ## Questions
 
