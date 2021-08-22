@@ -2,7 +2,7 @@
 
 ## Description
 
-This app allows the developers to create a new readme for a new project.
+This app allows developers to create a new professional readme for a new project.
 
 https://github.com/billgeng/UT06-2021-BG-Challenge9/blob/main/Develop/README.md
 
@@ -17,7 +17,7 @@ https://github.com/billgeng/UT06-2021-BG-Challenge9/blob/main/Develop/README.md
 
 ## Installation
 
-npm init , inquirer,node index.js
+npm init, inquirer,node
 
 ## Usage
 
