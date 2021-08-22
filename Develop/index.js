@@ -6,7 +6,7 @@ const util = require('util');
 const writeFileAsync = util.promisify(fs.writeFile);
 
 const generateMarkdown = require('./utils/generateMarkdown.js');
-const Choices = require('inquirer/lib/objects/choices');
+//const choices = require('inquirer/lib/objects/choices');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -25,7 +25,7 @@ const questions = [
        },
        {
         type:'input',
-        name:'github',
+        name:'username',
         message:'What is your GitHub username ?'
 
         },
@@ -60,18 +60,14 @@ const questions = [
             type:'list',
             name:'license',
             message:'Which license the application is covered under? ',
-            Choices:['The MIT license','The GPL license','Apache license','GNU license','N/A']
+            choices:['The MIT license','Apache license','GNU license','N/A']
         },
         {
             type:'input',
             name:'badges',
             message:'What are badges do you have for the project ?'
         },
-        {
-            type:'input',
-            name:'features',
-            message:'What are the features of your project?'
-        },
+        
         {
             type:'input',
             name:'contributing',

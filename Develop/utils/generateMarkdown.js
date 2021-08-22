@@ -1,9 +1,9 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (data.badges == '') {
-    return data.badges = '';
-  } 
+  let licenseType = data.license;
+  let 
+
 }
 
 // TODO: Create a function that returns the license link
@@ -66,7 +66,6 @@ function generateMarkdown(data) {
   ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
   ${data.badges}
-
   
 
   ## Contributing
