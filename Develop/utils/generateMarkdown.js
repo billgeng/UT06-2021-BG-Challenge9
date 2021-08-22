@@ -35,7 +35,7 @@ function renderLicenseSection(license) {
     return ''
   } else {
     return (`
-        This project is license under the ${license}.
+    This project is license under the ${license}.
     `
     )
   }
@@ -53,6 +53,8 @@ function generateMarkdown(data) {
   ${data.description}
 
   https://github.com/${data.username}/UT06-2021-BG-Challenge9/blob/main/Develop/README.md
+
+  The walkthrough video link :  https://youtu.be/zD7MfmdJRd4
 
   ## Table of Contents
 

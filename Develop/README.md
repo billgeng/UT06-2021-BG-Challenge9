@@ -2,9 +2,11 @@
 
 ## Description
 
-This app allows developers to create a new professional readme for a new project.
+This app allows developers to create new professional readme for a new project.
 
 https://github.com/billgeng/UT06-2021-BG-Challenge9/blob/main/Develop/README.md
+
+The walkthrough video link : https://youtu.be/zD7MfmdJRd4
 
 ## Table of Contents
 
@@ -17,7 +19,7 @@ https://github.com/billgeng/UT06-2021-BG-Challenge9/blob/main/Develop/README.md
 
 ## Installation
 
-npm init, inquirer,node
+npm init, inquirer, node
 
 ## Usage
 
@@ -29,7 +31,7 @@ npm init, npm install inquirer,node index.js
 
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
-N/A
+JavaScript
 
 ## Contributing
 
@@ -41,7 +43,7 @@ node index.js
 
 ## License
 
-        This project is license under the MIT license.
+    This project is license under the MIT license.
 
 ![License:MIT](https://img.shields.io/badge/License-MIT-brightgreen)
 
