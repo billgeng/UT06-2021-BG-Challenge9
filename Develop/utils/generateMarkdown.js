@@ -31,7 +31,16 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  
+  if (license === '') {
+    return ''
+  } else {
+    return (`
+      ## License
+      
+      This project is license under the ${license}.
+    `
+    )
+  }
 }
 
 // TODO: Create a function to generate markdown for README
@@ -40,7 +49,7 @@ function generateMarkdown(data) {
   
   # ${data.title}
 
-  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+ 
 
   ## Description 
 
@@ -74,6 +83,8 @@ function generateMarkdown(data) {
   
   ## Badges
 
+  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+
   ${renderLicenseBadge(`${data.license}`)}
 
   ${data.badges}
@@ -87,9 +98,9 @@ function generateMarkdown(data) {
 
   ${data.tests}
 
-  ## License
+  ${renderLicenseSection(`${data.license}`)}
 
-   This project is licensed by ${data.license} .
+   If you have any question about license ,please visit to ${renderLicenseLink(`${data.license}`)}.
 
 
   ## Questions
