@@ -1,16 +1,12 @@
 
   
-  # Professional README Generator 
-
-  [How to create a Professional README](./readme-guide.md)
-  
-
   # Professional README Generator
 
+  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
   ## Description 
 
-  This is generator to create a professional README for a new project.
+  This is application for creating professional readme for a new project.
 
   ## Table of Contents
 
@@ -29,34 +25,34 @@
   
   ## Installation
 
-  npm init, npm install inquirer,node index.js
+  npm init ,inquirer,node index.js
 
   ## Usage 
 
-  1.npm init,2.npm install inquirer ,3.node index.js
+  npm init, npm install inquirer,node index.js
 
   ![alt text](./assets/images/screenshot.png)
 
   
   ## Badges
 
-  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+  ![License:MIT](https://img.shields.io/badge/License-MIT-brightgreen)
 
-  n
-
+  MIT
   
 
   ## Contributing
 
-  n
+  N/A
 
   ## Tests
 
-  n
+  node index.js
 
   ## License
 
-   This project is licensed by The MIT license .
+   This project is licensed by MIT license .
+
 
   ## Questions
 

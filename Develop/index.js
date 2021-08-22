@@ -60,7 +60,7 @@ const questions = [
             type:'list',
             name:'license',
             message:'Which license the application is covered under? ',
-            choices:['The MIT license','Apache license','GNU license','N/A']
+            choices:['MIT license','Apache license','GNU license','N/A']
         },
         {
             type:'input',
@@ -88,9 +88,9 @@ function writeToFile(fileName, data) {
           console.log(fileName)
           console.log(data)
           if (err) {
-              return console.log(err)
+              throw err;
           } else {
-              console.log('You are successful !')
+              console.log('You are successful !');
           }
       })
 }
