@@ -69,7 +69,7 @@ function generateMarkdown(data) {
 
   ${data.usage}
 
-  ![alt text](./assets/images/screenshot.png)
+  ![alt text](./assets/images/Screenshot-proreadme.png)
   
   ## Badges
 
